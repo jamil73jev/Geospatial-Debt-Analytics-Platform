@@ -8,6 +8,7 @@ Página del dashboard **Recaudación Municipal: Tablero Ejecutivo** (`Recaudaci�
 | Visuales | 1 visual HTML Content, 1 tabla dinámica |
 | Tabla del modelo | `GEORREFERENCIACION` |
 | Contiene datos personales | Sí (nombre del contribuyente) |
+| Fuente de datos | Base de datos municipal en un data warehouse |
 
 ## Visual HTML Content
 
@@ -26,5 +27,5 @@ La vista relaciona la deuda de cada contribuyente (tipo, título y juicio) con s
 ## Por confirmar
 
 - Si el visual HTML dibuja un mapa o solo paneles y tablas.
-- Origen de la tabla `GEORREFERENCIACION` y cómo se actualiza.
+- Vista o tabla de origen de `GEORREFERENCIACION` en el data warehouse y frecuencia de actualización.
 - Relación exacta con el mapa de ArcGIS y con la página `CARTERA` del dashboard de cartera.

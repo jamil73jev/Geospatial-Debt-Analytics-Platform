@@ -8,6 +8,7 @@ Vista de análisis de la cartera de contribuyentes por tipo de deuda, título, j
 | **Área** | Dirección General Financiera, M.I. Municipalidad de Guayaquil |
 | **Estado** | En uso |
 | **Plataforma** | Power BI (visual HTML Content) |
+| **Fuente de datos** | Base de datos municipal en un data warehouse |
 | **Uso** | Interno. Repositorio privado |
 
 ## Qué contiene
@@ -29,7 +30,7 @@ SICOGE se documenta como la página `GEORREFERENCIACION` del dashboard de Power 
 
 - [ ] Si el visual HTML dibuja un mapa o solo paneles y tablas.
 - [ ] Método de geocodificación y fecha de la última actualización de coordenadas.
-- [ ] Origen y frecuencia de actualización de la tabla `GEORREFERENCIACION`.
+- [ ] Vista o tabla de origen de `GEORREFERENCIACION` en el data warehouse y frecuencia de actualización.
 - [ ] Usuarios con acceso.
 
 ## Datos y seguridad
