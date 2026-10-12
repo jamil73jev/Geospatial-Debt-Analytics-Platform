@@ -26,6 +26,10 @@ SICOGE se documenta como la página `GEORREFERENCIACION` del dashboard de Power 
 |---|---|
 | [Vista GEORREFERENCIACIÓN](docs/vista-georreferenciacion.md) | Campos, medidas y pendientes de la página |
 
+## Informes
+
+Los informes que usan esta información están en [`informes/`](informes/): el informe de necesidades de notificación y su presentación.
+
 ## Pendiente por documentar
 
 - [ ] Si el visual HTML dibuja un mapa o solo paneles y tablas.
