@@ -20,6 +20,7 @@ Portal de gestión de cartera basada en análisis geoespacial para la Dirección
 |---|---|
 | Portal web | Sitio institucional de la Dirección General Financiera (WordPress), con las seis secciones |
 | Mapa interactivo | Aplicación de ArcGIS Experience Builder alojada en el geoportal de Guayaquil |
+| Vista GEORREFERENCIACIÓN | Página del dashboard Recaudación Municipal: Tablero Ejecutivo, con panel HTML de contribuyentes por tipo de deuda, título, juicio y sector (ver `docs/vista-georreferenciacion.md`) |
 | Vista de análisis | Página `CARTERA` del dashboard de Power BI "Cartera Municipal Cobranza y Conciliación", con mapa ArcGIS y filtros por contribuyente |
 
 ## Origen de los datos
@@ -38,6 +39,7 @@ Portal de gestión de cartera basada en análisis geoespacial para la Dirección
 ## Documentación
 
 - [`docs/arquitectura.md`](docs/arquitectura.md): componentes y flujo.
+- [`docs/vista-georreferenciacion.md`](docs/vista-georreferenciacion.md): página GEORREFERENCIACIÓN de Power BI.
 - [`docs/secciones-del-portal.md`](docs/secciones-del-portal.md): las seis secciones.
 
 ## Datos
