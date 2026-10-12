@@ -1,10 +1,9 @@
-# SICOGE: Sistema de Inteligencia de Cartera y Cobranza Geoespacial
+# SICOGE: Gestión de Cartera Basada en Análisis Geoespacial
 
-Portal de análisis de cartera sobre mapa para la Dirección General Financiera de la M.I. Municipalidad de Guayaquil. Permite consultar, analizar y dar seguimiento a las obligaciones pendientes de los contribuyentes con títulos de crédito y patente municipal, ubicados geográficamente.
+Portal de gestión de cartera basada en análisis geoespacial para la Dirección General Financiera de la M.I. Municipalidad de Guayaquil. Permite consultar, analizar y dar seguimiento a las obligaciones pendientes de los contribuyentes con títulos de crédito y patente municipal, ubicados geográficamente.
 
 **Idea y desarrollo de la georreferenciación:** Jorge Jamil Espinoza Villa, Analista Financiero
 **Estado:** publicado
-**Nombre formal:** [confirmar contra el nombre aprobado]
 
 ## Secciones del portal
 
