@@ -35,6 +35,11 @@ Portal de gestión de cartera basada en análisis geoespacial para la Dirección
 - [ ] Control de acceso: quién puede ver qué campos de cada contribuyente.
 - [ ] Frecuencia de actualización de la cartera.
 
+## Documentación
+
+- [`docs/arquitectura.md`](docs/arquitectura.md): componentes y flujo.
+- [`docs/secciones-del-portal.md`](docs/secciones-del-portal.md): las seis secciones.
+
 ## Datos
 
 Este repositorio **no contiene datos de contribuyentes ni coordenadas**. Solo documentación y código propio del proyecto.
