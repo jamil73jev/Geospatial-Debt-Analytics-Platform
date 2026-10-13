@@ -24,6 +24,10 @@ Se alimenta de una sola medida DAX de la tabla del modelo, `Dashboard_HTML_Contr
 
 La vista relaciona la deuda de cada contribuyente (tipo, título y juicio) con su sector de nomenclatura.
 
+## Consulta de origen
+
+Origen probable (por confirmar): la consulta de cartera consolidada del dashboard *Cartera Municipal*, [`cartera-consolidada_v202610.sql`](https://github.com/jamil73jev/Dashboards-de-Power-BI/blob/main/consultas/cartera-municipal/cartera-consolidada_v202610.sql). Reúne la coactiva en deuda y los títulos en deuda sin contraparte coactiva, con segmentos de Pareto, calidad de ubicación, parroquia y sector.
+
 ## Por confirmar
 
 - Si el visual HTML dibuja un mapa o solo paneles y tablas.
