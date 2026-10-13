@@ -13,7 +13,7 @@ Vista de análisis de la cartera de contribuyentes por tipo de deuda, título, j
 
 ## Contenido
 
-[Qué contiene](#qué-contiene) · [Flujo de datos](#flujo-de-datos) · [De la cartera al operativo](#de-la-cartera-al-operativo) · [Campos de la vista](#campos-de-la-vista) · [Ejemplo](#ejemplo-con-datos-ficticios) · [Estructura](#estructura-del-repositorio) · [Informes](#informes) · [Pendientes](#pendiente-por-documentar)
+[Qué contiene](#qué-contiene) · [Flujo de datos](#flujo-de-datos) · [De la cartera al operativo](#de-la-cartera-al-operativo) · [Campos de la vista](#campos-de-la-vista) · [Ejemplo](#ejemplo-con-datos-ficticios) · [Estructura](#estructura-del-repositorio) · [Informes](#informes) · [Pendientes](#pendiente-por-documentar) · [Relacionados](#repositorios-relacionados)
 
 ## Qué contiene
 
@@ -88,6 +88,8 @@ Una parroquia con pocos contribuyentes y alto promedio (como la D) pide gestión
 ```
 .
 ├── README.md
+├── CHANGELOG.md                      historial de cambios
+├── .github/                          verificación automática y plantilla de cambios
 ├── docs/
 │   ├── vista-georreferenciacion.md   campos y medidas de la página de Power BI
 │   └── estados-de-cartera.md         TIN, GAT, P y T
@@ -107,6 +109,15 @@ Los informes que usan esta información están en [`informes/`](informes/): el i
 - [ ] Método de geocodificación y fecha de la última actualización de coordenadas.
 - [ ] Vista o tabla de origen de `GEORREFERENCIACION` en el data warehouse y frecuencia de actualización.
 - [ ] Usuarios con acceso.
+
+## Repositorios relacionados
+
+- [Dashboards-de-Power-BI](https://github.com/jamil73jev/Dashboards-de-Power-BI): dashboard *Recaudación Municipal*, que contiene la página GEORREFERENCIACIÓN, y consultas de cartera.
+- [SIGECO](https://github.com/jamil73jev/SIGECO): sistema de gestión de cobranza que opera sobre la misma cartera.
+
+## Historial de cambios
+
+Ver [`CHANGELOG.md`](CHANGELOG.md). Los cambios se revisan con la lista de la plantilla de pull request y con la verificación automática de `.github/`.
 
 ## Datos y seguridad
 
