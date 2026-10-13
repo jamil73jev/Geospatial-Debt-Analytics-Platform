@@ -47,7 +47,7 @@ flowchart TD
     E --> F["Operativos de notificación<br/>dotación de notificadores"]
 ```
 
-Los estados de cartera se explican en [`docs/estados-de-cartera.md`](docs/estados-de-cartera.md).
+Los estados de cartera se explican en [`docs/estados-de-cartera.md`](docs/estados-de-cartera.md). Las reglas de segmentación, calidad de la ubicación y antigüedad están en [`docs/segmentacion-y-calidad-de-ubicacion.md`](docs/segmentacion-y-calidad-de-ubicacion.md).
 
 ## Campos de la vista
 
@@ -92,7 +92,8 @@ Una parroquia con pocos contribuyentes y alto promedio (como la D) pide gestión
 ├── .github/                          verificación automática y plantilla de cambios
 ├── docs/
 │   ├── vista-georreferenciacion.md   campos y medidas de la página de Power BI
-│   └── estados-de-cartera.md         TIN, GAT, P y T
+│   ├── estados-de-cartera.md         TIN, GAT, P y T
+│   └── segmentacion-y-calidad-de-ubicacion.md   Pareto, calidad de ubicación y antigüedad
 └── informes/
     ├── README.md
     ├── informe-necesidades-de-notificacion_v202609.pdf

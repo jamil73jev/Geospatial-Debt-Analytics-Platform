@@ -2,6 +2,12 @@
 
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). Las versiones siguen `MAYOR.MENOR.PARCHE`.
 
+## [1.1.0] - 2026-10-13
+
+### Agregado
+- Segmentos de Pareto, calidad de la ubicación y rangos de antigüedad, tomados de la consulta de cartera consolidada.
+- Confirmación de que los campos de la tabla dinámica de GEORREFERENCIACIÓN existen en esa consulta.
+
 ## [1.0.0] - 2026-10-13
 
 Primera versión presentada de forma profesional.

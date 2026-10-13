@@ -26,7 +26,7 @@ La vista relaciona la deuda de cada contribuyente (tipo, título y juicio) con s
 
 ## Consulta de origen
 
-Origen probable (por confirmar): la consulta de cartera consolidada del dashboard *Cartera Municipal*, [`cartera-consolidada_v202610.sql`](https://github.com/jamil73jev/Dashboards-de-Power-BI/blob/main/consultas/cartera-municipal/cartera-consolidada_v202610.sql). Reúne la coactiva en deuda y los títulos en deuda sin contraparte coactiva, con segmentos de Pareto, calidad de ubicación, parroquia y sector.
+Origen probable: la consulta de cartera consolidada del dashboard *Cartera Municipal*, [`cartera-consolidada_v202610.sql`](https://github.com/jamil73jev/Dashboards-de-Power-BI/blob/main/consultas/cartera-municipal/cartera-consolidada_v202610.sql). Reúne la coactiva en deuda y los títulos en deuda sin contraparte coactiva, con segmentos de Pareto, calidad de ubicación, parroquia y sector. Todos los campos de la tabla dinámica de arriba (`TipoDeuda`, `AnioTitulo`, `NumeroTitulo`, `NumeroJuicio`, `AnioJuicio`, `SectorNomenclatura`, `NombreContribuyente`, `ValorTotal`) y el segmento (`SegmentoGestion`) existen en su salida. Falta confirmar con el nombre de la tabla del modelo. Las reglas están en [Segmentación y calidad de la ubicación](segmentacion-y-calidad-de-ubicacion.md).
 
 ## Por confirmar
 
