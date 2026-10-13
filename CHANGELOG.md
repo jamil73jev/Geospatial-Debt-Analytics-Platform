@@ -5,6 +5,8 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). L
 ## [1.1.0] - 2026-10-13
 
 ### Agregado
+- Medida DAX `Dashboard_HTML_Contribuyentes_Pro_Plus` en `dax/` y su explicación en `docs/medida-html-georreferenciacion.md`.
+- Vista previa HTML con datos ficticios (`docs/vista-previa/`), capturas en `docs/img/` y el generador `herramientas/generar_vista_previa.py`.
 - Segmentos de Pareto, calidad de la ubicación y rangos de antigüedad, tomados de la consulta de cartera consolidada.
 - Confirmación de que los campos de la tabla dinámica de GEORREFERENCIACIÓN existen en esa consulta.
 

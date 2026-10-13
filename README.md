@@ -13,7 +13,7 @@ Vista de análisis de la cartera de contribuyentes por tipo de deuda, título, j
 
 ## Contenido
 
-[Qué contiene](#qué-contiene) · [Flujo de datos](#flujo-de-datos) · [De la cartera al operativo](#de-la-cartera-al-operativo) · [Campos de la vista](#campos-de-la-vista) · [Ejemplo](#ejemplo-con-datos-ficticios) · [Estructura](#estructura-del-repositorio) · [Informes](#informes) · [Pendientes](#pendiente-por-documentar) · [Relacionados](#repositorios-relacionados)
+[Qué contiene](#qué-contiene) · [Flujo de datos](#flujo-de-datos) · [De la cartera al operativo](#de-la-cartera-al-operativo) · [Campos de la vista](#campos-de-la-vista) · [Pantallas](#pantallas-del-panel) · [Ejemplo](#ejemplo-con-datos-ficticios) · [Estructura](#estructura-del-repositorio) · [Informes](#informes) · [Pendientes](#pendiente-por-documentar) · [Relacionados](#repositorios-relacionados)
 
 ## Qué contiene
 
@@ -21,7 +21,8 @@ SICOGE se documenta como la página `GEORREFERENCIACION` del dashboard de Power 
 
 | Componente | Descripción |
 |---|---|
-| Panel de contribuyentes | Visual HTML Content alimentado por la medida `Dashboard_HTML_Contribuyentes_Pro_Plus` |
+| Panel de contribuyentes | Visual HTML Content alimentado por la medida `Dashboard_HTML_Contribuyentes_Pro_Plus`. Código en [`dax/`](dax/) y explicación en [`docs/medida-html-georreferenciacion.md`](docs/medida-html-georreferenciacion.md) |
+| Vista previa | Página HTML con datos ficticios que se abre en cualquier navegador: [`docs/vista-previa/georreferenciacion.html`](docs/vista-previa/georreferenciacion.html) |
 | Tabla de detalle | Tabla dinámica por tipo de deuda, título, juicio, sector de nomenclatura y contribuyente |
 
 ## Flujo de datos
@@ -62,6 +63,16 @@ Tabla del modelo: `GEORREFERENCIACION`.
 
 Detalle en [`docs/vista-georreferenciacion.md`](docs/vista-georreferenciacion.md).
 
+## Pantallas del panel
+
+Capturas de la vista previa generada con datos ficticios. El detalle de cada bloque está en [`docs/medida-html-georreferenciacion.md`](docs/medida-html-georreferenciacion.md).
+
+![Composición por fase y segmentación operativa](docs/img/georreferenciacion-fases.png)
+
+![Análisis por parroquia con la fila REVISAR UBICACIÓN](docs/img/georreferenciacion-territorio.png)
+
+![Capacidad operativa de notificación](docs/img/georreferenciacion-notificacion.png)
+
 ## Ejemplo con datos ficticios
 
 Así se lee la concentración de deuda por parroquia. Las parroquias y las cifras son inventadas.
@@ -90,8 +101,16 @@ Una parroquia con pocos contribuyentes y alto promedio (como la D) pide gestión
 ├── README.md
 ├── CHANGELOG.md                      historial de cambios
 ├── .github/                          verificación automática y plantilla de cambios
+├── dax/
+│   └── dashboard-html-contribuyentes-pro-plus_v202610.dax   medida que dibuja el panel HTML
+├── herramientas/
+│   └── generar_vista_previa.py       genera la vista previa con datos ficticios
 ├── docs/
 │   ├── vista-georreferenciacion.md   campos y medidas de la página de Power BI
+│   ├── medida-html-georreferenciacion.md   cómo funciona la medida HTML
+│   ├── vista-previa/
+│   │   └── georreferenciacion.html   panel con datos ficticios
+│   ├── img/                          capturas de la vista previa
 │   ├── estados-de-cartera.md         TIN, GAT, P y T
 │   └── segmentacion-y-calidad-de-ubicacion.md   Pareto, calidad de ubicación y antigüedad
 └── informes/
@@ -106,7 +125,7 @@ Los informes que usan esta información están en [`informes/`](informes/): el i
 
 ## Pendiente por documentar
 
-- [ ] Si el visual HTML dibuja un mapa o solo paneles y tablas.
+- [x] Si el visual HTML dibuja un mapa o solo paneles y tablas: solo tarjetas, tablas y barras, sin mapa (ver [`docs/medida-html-georreferenciacion.md`](docs/medida-html-georreferenciacion.md)).
 - [ ] Método de geocodificación y fecha de la última actualización de coordenadas.
 - [ ] Vista o tabla de origen de `GEORREFERENCIACION` en el data warehouse y frecuencia de actualización.
 - [ ] Usuarios con acceso.
