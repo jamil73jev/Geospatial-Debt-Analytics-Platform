@@ -128,8 +128,8 @@ Los informes que usan esta información están en [`informes/`](informes/): el i
 
 - [x] Si el visual HTML dibuja un mapa o solo paneles y tablas: solo tarjetas, tablas y barras, sin mapa (ver [`docs/medida-html-georreferenciacion.md`](docs/medida-html-georreferenciacion.md)).
 - [x] Método de geocodificación: nace del catastro del predio (sector, manzana, lote, división, PHV y PHH). Ver [`docs/segmentacion-y-calidad-de-ubicacion.md`](docs/segmentacion-y-calidad-de-ubicacion.md#de-dónde-nace-la-ubicación).
-- [ ] Fecha de la última actualización de coordenadas.
-- [ ] Significado de las siglas PHV y PHH de la clave catastral.
+- [x] Fecha de la última actualización de coordenadas: 5 de octubre de 2026.
+- [x] Siglas PHV y PHH de la clave catastral: propiedad horizontal vertical y propiedad horizontal horizontal.
 - [ ] Vista o tabla de origen de `GEORREFERENCIACION` en el data warehouse y frecuencia de actualización.
 - [ ] Usuarios con acceso.
 

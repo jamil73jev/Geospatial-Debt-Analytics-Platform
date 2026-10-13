@@ -7,7 +7,7 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). L
 ### Agregado
 - `AVISO.md`: aviso de uso y propiedad intelectual de este repositorio.
 - Explicación de dónde nace la ubicación geográfica: el catastro del predio.
-- Significado de AGA (áreas de gestión administrativa).
+- Significado de AGA (áreas de gestión administrativa), PHV y PHH, y fecha de la última actualización de coordenadas (5 de octubre de 2026).
 
 ## [1.1.0] - 2026-10-13
 
