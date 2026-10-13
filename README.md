@@ -1,4 +1,4 @@
-# SICOGE: Gestión de Cartera Basada en Análisis Geoespacial
+# Plataforma de Inteligencia Geoespacial para la Gestión de Cartera
 
 Vista de análisis de la cartera de contribuyentes por tipo de deuda, título, juicio y sector, para la Dirección General Financiera de la M.I. Municipalidad de Guayaquil. Sirve para ubicar dónde se concentra la deuda y priorizar los operativos de notificación.
 
