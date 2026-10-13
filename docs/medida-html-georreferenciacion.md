@@ -71,7 +71,7 @@ Se evalúa por contribuyente, con su deuda total y su número de obligaciones. B
 
 ### Calidad de la ubicación
 
-El campo `CalidadUbicacion` clasifica cada deuda en una sola categoría, así que los tres grupos de abajo no se superponen y suman el 100 % de la cartera.
+La ubicación nace del catastro del predio (ver [De dónde nace la ubicación](segmentacion-y-calidad-de-ubicacion.md#de-dónde-nace-la-ubicación)). El campo `CalidadUbicacion` clasifica cada deuda en una sola categoría, así que los tres grupos de abajo no se superponen y suman el 100 % de la cartera.
 
 | Código | Significado | Se puede notificar | Decisión |
 |---|---|---|---|
@@ -107,7 +107,7 @@ Mayor promedio por contribuyente, luego mayor cartera, menor número de presenci
 | `TipoDeuda` | Rubros bloqueados por falta de ubicación |
 | `Parroquia`, `SectorNomenclatura` | Análisis territorial |
 | `CalidadUbicacion` | Códigos 01 a 05 |
-| `RangoAntiguedad`, `AnioIdDeuda`, `AGA` | Filtros que se muestran en el encabezado |
+| `RangoAntiguedad`, `AnioIdDeuda`, `AGA` | Filtros que se muestran en el encabezado. AGA significa áreas de gestión administrativa |
 | `FechaCorte` | Fecha de corte del panel |
 
 ## Cómo usarlo en Power BI

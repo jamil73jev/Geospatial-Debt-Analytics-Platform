@@ -100,6 +100,7 @@ Una parroquia con pocos contribuyentes y alto promedio (como la D) pide gestión
 .
 ├── README.md
 ├── CHANGELOG.md                      historial de cambios
+├── AVISO.md                          aviso de uso y propiedad intelectual
 ├── .github/                          verificación automática y plantilla de cambios
 ├── dax/
 │   └── dashboard-html-contribuyentes-pro-plus_v202610.dax   medida que dibuja el panel HTML
@@ -126,7 +127,9 @@ Los informes que usan esta información están en [`informes/`](informes/): el i
 ## Pendiente por documentar
 
 - [x] Si el visual HTML dibuja un mapa o solo paneles y tablas: solo tarjetas, tablas y barras, sin mapa (ver [`docs/medida-html-georreferenciacion.md`](docs/medida-html-georreferenciacion.md)).
-- [ ] Método de geocodificación y fecha de la última actualización de coordenadas.
+- [x] Método de geocodificación: nace del catastro del predio (sector, manzana, lote, división, PHV y PHH). Ver [`docs/segmentacion-y-calidad-de-ubicacion.md`](docs/segmentacion-y-calidad-de-ubicacion.md#de-dónde-nace-la-ubicación).
+- [ ] Fecha de la última actualización de coordenadas.
+- [ ] Significado de las siglas PHV y PHH de la clave catastral.
 - [ ] Vista o tabla de origen de `GEORREFERENCIACION` en el data warehouse y frecuencia de actualización.
 - [ ] Usuarios con acceso.
 
@@ -142,3 +145,5 @@ Ver [`CHANGELOG.md`](CHANGELOG.md). Los cambios se revisan con la lista de la pl
 ## Datos y seguridad
 
 Este repositorio **no contiene datos de contribuyentes ni coordenadas**, ni el archivo `.pbix`. Los ejemplos con datos ficticios están marcados como tales. Los PDF de `informes/` traen cifras agregadas institucionales: ver `informes/README.md`.
+
+Aviso de uso y propiedad intelectual: [`AVISO.md`](AVISO.md).

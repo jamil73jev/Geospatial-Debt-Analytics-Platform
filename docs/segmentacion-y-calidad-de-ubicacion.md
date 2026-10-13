@@ -63,10 +63,21 @@ Se calcula como el año de corte menos el año de la deuda y se agrupa así:
 
 > La consulta tiene el año de corte escrito como `2026`. Al cambiar de año hay que actualizarlo; de lo contrario la antigüedad sale mal.
 
+## De dónde nace la ubicación
+
+La geocodificación nace del **catastro del predio**. Cada predio se identifica con la clave catastral formada por seis campos: `Sector`, `Manzana`, `Lote`, `Division`, `Phv` y `Phh`. La ubicación de la deuda se obtiene al vincular la obligación con su predio en el catastro. Las consultas de títulos de predios usan esos mismos seis campos como llave única del catastro (por ejemplo [`titulos-de-predios-urbanos_v202610.sql`](https://github.com/jamil73jev/Dashboards-de-Power-BI/blob/main/consultas/cartera-municipal/titulos-de-predios-urbanos_v202610.sql)), y solo toman sus atributos cuando el vínculo catastral está validado.
+
+Por eso la calidad de la ubicación (códigos 01 a 05) depende de que la obligación tenga un predio vinculado y de que ese predio tenga completos sus datos territoriales.
+
+| Siglas de la clave | Significado |
+|---|---|
+| `Sector`, `Manzana`, `Lote`, `Division` | Los niveles de la clave catastral del predio |
+| `Phv`, `Phh` | Siglas de la clave catastral. **Por confirmar** su significado |
+
 ## Geografía y catastro disponibles
 
 | Grupo | Campos |
 |---|---|
-| Geografía | `AGA`, `Parroquia`, `SectorNomenclatura`, `DireccionUbicacion`, `LatitudUbicacion`, `LongitudUbicacion` |
+| Geografía | `AGA` (áreas de gestión administrativa), `Parroquia`, `SectorNomenclatura`, `DireccionUbicacion`, `LatitudUbicacion`, `LongitudUbicacion` |
 | Catastro | `Sector`, `Manzana`, `Lote`, `Division`, `Phv`, `Phh`, `Numero` |
 | Contribuyente | `RankingDeudor`, `ObligacionesContribuyente`, `DeudaTotalContribuyente`, `ParticipacionAcumuladaPct`, `SegmentoGestion` |
