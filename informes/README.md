@@ -1,6 +1,6 @@
 # Informes
 
-Informes y presentaciones elaborados con la información geoespacial de cartera de SICOGE.
+Informes y presentaciones elaborados con la información geoespacial de cartera de PIGGC.
 
 | Documento | Tipo | Páginas | Fecha | Corte de datos |
 |---|---|---|---|---|

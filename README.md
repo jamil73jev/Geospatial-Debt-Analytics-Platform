@@ -4,12 +4,13 @@ Vista de análisis de la cartera de contribuyentes por tipo de deuda, título, j
 
 | | |
 |---|---|
-| **Idea y desarrollo de la georreferenciación** | Jorge Jamil Espinoza Villa, Analista Financiero |
+| **Idea y dirección funcional** | Jorge Jamil Espinoza Villa, Analista Financiero |
+| **Desarrollo** | Área de Tecnología, según la operatividad de las áreas |
 | **Área** | Dirección General Financiera, M.I. Municipalidad de Guayaquil |
 | **Estado** | En uso |
 | **Plataforma** | Power BI (visual HTML Content) |
 | **Fuente de datos** | Base de datos municipal en un data warehouse |
-| **Uso** | Interno. Repositorio privado |
+| **Uso** | Repositorio público de documentación, con datos ficticios. Restricciones en [`AVISO.md`](AVISO.md) |
 
 ## Contenido
 
@@ -17,7 +18,7 @@ Vista de análisis de la cartera de contribuyentes por tipo de deuda, título, j
 
 ## Qué contiene
 
-SICOGE se documenta como la página `GEORREFERENCIACION` del dashboard de Power BI *Recaudación Municipal: Tablero Ejecutivo*. La georreferenciación se aplicó primero a los rubros de 1,5 por mil y Patente Municipal.
+PIGGC se documenta como la página `GEORREFERENCIACION` del dashboard de Power BI *Recaudación Municipal: Tablero Ejecutivo*. La georreferenciación se aplicó primero a los rubros de 1,5 por mil y Patente Municipal.
 
 | Componente | Descripción |
 |---|---|
@@ -136,7 +137,7 @@ Los informes que usan esta información están en [`informes/`](informes/): el i
 ## Repositorios relacionados
 
 - [Dashboards-de-Power-BI](https://github.com/jamil73jev/Dashboards-de-Power-BI): dashboard *Recaudación Municipal*, que contiene la página GEORREFERENCIACIÓN, y consultas de cartera.
-- [SIGECO](https://github.com/jamil73jev/SIGECO): sistema de gestión de cobranza que opera sobre la misma cartera.
+- [SIGCC](https://github.com/jamil73jev/Financial-Collections-Management-System): sistema de gestión de cobranza que opera sobre la misma cartera.
 
 ## Historial de cambios
 

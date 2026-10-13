@@ -1,6 +1,6 @@
 # Vista GEORREFERENCIACIÓN (Power BI)
 
-Página del dashboard **Recaudación Municipal: Tablero Ejecutivo** (`Recaudación Municipal Tablero Ejecutivo.pbix`, octubre 2026) que corresponde a SICOGE. El archivo `.pbix` no se sube a este repositorio.
+Página del dashboard **Recaudación Municipal: Tablero Ejecutivo** (`Recaudación Municipal Tablero Ejecutivo.pbix`, octubre 2026) que corresponde a PIGGC. El archivo `.pbix` no se sube a este repositorio.
 
 | Dato | Valor |
 |---|---|

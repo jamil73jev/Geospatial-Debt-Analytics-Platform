@@ -1,6 +1,6 @@
-# Aviso de uso y propiedad intelectual: SICOGE
+# Aviso de uso y propiedad intelectual: PIGGC
 
-SICOGE (Gestión de Cartera Basada en Análisis Geoespacial) es la documentación de la página `GEORREFERENCIACION` del dashboard de Power BI *Recaudación Municipal: Tablero Ejecutivo*, de uso interno de la Dirección General Financiera de la M.I. Municipalidad de Guayaquil. Este repositorio es privado.
+PIGGC (Plataforma de Inteligencia Geoespacial para la Gestión de Cartera) es la documentación de la página `GEORREFERENCIACION` del dashboard de Power BI *Recaudación Municipal: Tablero Ejecutivo*, de uso interno de la Dirección General Financiera de la M.I. Municipalidad de Guayaquil. Este repositorio es privado.
 
 ## Autoría y titularidad
 

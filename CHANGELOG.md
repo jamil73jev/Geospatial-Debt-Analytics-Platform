@@ -2,6 +2,13 @@
 
 Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). Las versiones siguen `MAYOR.MENOR.PARCHE`.
 
+## [1.3.0] - 2026-10-13
+
+### Cambiado
+- Cambio de nombre: SICOGE pasa a llamarse PIGGC (Plataforma de Inteligencia Geoespacial para la Gestión de Cartera). El repositorio ahora es `Geospatial-Debt-Analytics-Platform`.
+- Atribución: idea y dirección funcional de Jorge Jamil Espinoza Villa; desarrollo a cargo del área de Tecnología.
+- Referencia al sistema de cobranza: SIGECO pasa a llamarse SIGCC (`Financial-Collections-Management-System`).
+
 ## [1.2.0] - 2026-10-13
 
 ### Agregado
